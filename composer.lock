@@ -63,19 +63,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tivins/php-common.git",
-                "reference": "224b50e38962a05f519f6bda089920fdadc03c97"
+                "reference": "cfd59cdd4edd2e09d6fb4449d12bbcebeb8a82dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tivins/php-common/zipball/224b50e38962a05f519f6bda089920fdadc03c97",
-                "reference": "224b50e38962a05f519f6bda089920fdadc03c97",
+                "url": "https://api.github.com/repos/tivins/php-common/zipball/cfd59cdd4edd2e09d6fb4449d12bbcebeb8a82dd",
+                "reference": "cfd59cdd4edd2e09d6fb4449d12bbcebeb8a82dd",
                 "shasum": ""
             },
             "require": {
                 "erusev/parsedown": "dev-master",
                 "ext-curl": "*",
                 "ext-mbstring": "*",
-                "php": ">=8.1"
+                "php": ">=8.2"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.5",
@@ -102,7 +102,7 @@
                 "issues": "https://github.com/tivins/php-common/issues",
                 "source": "https://github.com/tivins/php-common/tree/main"
             },
-            "time": "2023-01-01T21:32:23+00:00"
+            "time": "2023-01-06T22:40:58+00:00"
         }
     ],
     "packages-dev": [],
@@ -115,5 +115,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

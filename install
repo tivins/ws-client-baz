@@ -1,6 +1,11 @@
 #!/usr/bin/env php
 <?php
+
+use Tivins\Core\System\FileSys;
+
 require "vendor/autoload.php";
+
+$publicDir = 'front';
 
 var_dump([
     'argv' => $argv,
@@ -9,4 +14,4 @@ var_dump([
 ]);
 
 $cwd = getcwd();
-copy(__dir__ . '/template/font/main.js', $cwd . '/font/main.js');
+FileSys::copy(__dir__ . '/template/front/main.js', $cwd . '/'.$publicDir.'/main.js');
