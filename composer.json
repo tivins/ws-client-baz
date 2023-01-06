@@ -1,0 +1,11 @@
+{
+    "name": "tivins/ws-client-baz",
+    "type": "lib",
+    "minimum-stability": "dev",
+    "require": {
+        "tivins/php-common": "dev-main"
+    },
+    "bin": [
+        "install"
+    ]
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+require "vendor/autoload.php";
+
+var_dump([
+    'argv' => $argv,
+    'dir' => __dir__,
+    'cwd' => getcwd(),
+]);
+
+$cwd = getcwd();
+copy(__dir__ . '/template/font/main.js', $cwd . '/font/main.js');
